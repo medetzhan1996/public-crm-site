@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'MainController@index');
+Route::get('/{category_id?}', 'MainController@index')->name('main_index');

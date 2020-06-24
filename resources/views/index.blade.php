@@ -11,7 +11,7 @@
 					<ul class="category-menu">
 						@foreach($category_products as $category)
 						<li>
-							<a href="#">{{$category->title}}</a>
+							<a href="{{route('main_index', ['category_id' => $category->id])}}">{{$category->title}}</a>
 						</li>
 						@endforeach
 					</ul>
