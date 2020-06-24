@@ -22,7 +22,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text-center">
-							<h2 class="border-b">Топ продаж</h2>
+							<h2 class="border-b">{{$section_title}}</h2>
 						</div>
 					</div>
 					@foreach($list_products_top as $product)
