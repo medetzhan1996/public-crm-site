@@ -10,6 +10,7 @@
 						<div class="carousel-item active">
 						  <img src="{{ asset('img/soufeel/'.$product->src) }}" alt="...">
 						</div>
+						Eldos test
 						@if($product->src_extra1)
 							<div class="carousel-item">
 							  <img src="{{ asset('img/soufeel/'.$product->src_extra1) }}" class="d-block w-100" alt="...">
