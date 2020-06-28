@@ -118,6 +118,6 @@
 	<script src="{{ asset('js/jquery.zoom.min.js') }}"></script>
 	<script src="{{ asset('js/jquery-ui.min.js') }}"></script>
 	<script src="{{ asset('js/main.js') }}"></script>
-
+	@yield('js')
 	</body>
 </html>

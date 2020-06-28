@@ -58,8 +58,9 @@
 					</div>
 					<div class="input-text-modal">
 						<div class="form-group">
-						    <label for="validationTooltipUsername">Предварительный просмотр : <span></span></label>
-						    <input type="text" class="form-control form-contact"  placeholder="Введите имя или текст здесь ..." required>
+						    <label for="validationTooltipUsername">Предварительный просмотр : </label>
+						    <span id="preview-content"></span>
+						    <input type="text" id="preview-text" class="form-control form-contact"  placeholder="Введите имя или текст здесь ..." required>
 						  </div>
 					     <div class="form-group">
 						    <label for="exampleFormControlSelect1">Выберите материал:</label>
@@ -143,5 +144,12 @@
 			</div>
 		</div>
 	</section>
-	<!-- product section end -->
+@endsection
+@section('js')
+	<script type="text/javascript">
+		$(document).on('input', '#preview-text', function() {
+		  var text = $(this).val()
+		  $('#preview-content').html(text)
+		});
+	</script>
 @endsection
