@@ -35,8 +35,8 @@
 									@if($product->old_price)
 										<div class="tag-sale">Акция</div>
 									@endif
-									<a href="{{route('main_product_detail', ['id' => $product->id])}}">
-										<img src="{{ asset('img/'.$product->src) }}" alt="">
+									<a href="{{ $product->kind==1 ? route('main_product_detail', ['id' => $product->id]) : '' }}">
+										<img src="{{ asset('img/soufeel/'.$product->src) }}" alt="">
 									</a>
 									<div class="pi-links">
 										<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>

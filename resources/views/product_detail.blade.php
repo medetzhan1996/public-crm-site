@@ -8,21 +8,21 @@
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
-						  <img src="{{ asset('img/'.$product->src) }}" alt="...">
+						  <img src="{{ asset('img/soufeel/'.$product->src) }}" alt="...">
 						</div>
 						@if($product->src_extra1)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/'.$product->src_extra1) }}" class="d-block w-100" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra1) }}" class="d-block w-100" alt="...">
 							</div>
 						@endif
 						@if($product->src_extra2)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/'.$product->src_extra2) }}" class="d-block w-100" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra2) }}" class="d-block w-100" alt="...">
 							</div>
 						@endif
 						@if($product->src_extra3)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/'.$product->src_extra3) }}" class="d-block w-100" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra3) }}" class="d-block w-100" alt="...">
 							</div>
 						@endif
 					  </div>
@@ -37,9 +37,18 @@
 					</div>
 				</div>
 				<div class="col-lg-6 product-details">
-					<h2 class="p-title">Именные кулоны</h2>
-					<h3 class="p-price">{{$product->price}} тг</h3>
-					<h4 class="p-stock">Available: <span>In Stock</span></h4>
+					<h2 class="p-title" style="font-weight: 400;">{{$product->title}}</h2>
+					<h3 class="p-price" style="font-weight: 600;">
+						@if($product->old_price)
+							{{$product->price}} тг
+							<del style="color: #de0047;font-weight: 600;margin-left: 5px;font-size: 18px;">
+								{{$product->old_price}} тг
+							</del>
+						@else	
+							{{$product->price}} тг
+						@endif
+					</h3>
+					<!--h4 class="p-stock">В наличии: <span>Есть</span></h4-->
 					<div class="p-rating">
 						<i class="fa fa-star-o"></i>
 						<i class="fa fa-star-o"></i>
@@ -49,7 +58,7 @@
 					</div>
 					<div class="input-text-modal">
 						<div class="form-group">
-						    <label for="validationTooltipUsername">Предварительный просмотр : <span>Есть в наличии</span></label>
+						    <label for="validationTooltipUsername">Предварительный просмотр : <span></span></label>
 						    <input type="text" class="form-control form-contact"  placeholder="Введите имя или текст здесь ..." required>
 						  </div>
 					     <div class="form-group">
@@ -98,10 +107,10 @@
 					<div id="accordion" class="accordion-area">
 						<div class="panel">
 							<div class="panel-header" id="headingOne">
-								<button class="panel-link active" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Информация</button>
+								<button style="min-height: 50px;" class="panel-link active" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Информация</button>
 							</div>
 							<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-								<div class="panel-body">
+								<div class="panel-body" style="color: #999; font-size: 13px; line-height: 1.5;">
 									{!!$product->information!!}
 								</div>
 							</div>
