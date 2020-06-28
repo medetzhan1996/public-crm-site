@@ -58,7 +58,7 @@
 					</div>
 					<div class="input-text-modal">
 						<div class="form-group">
-						    <label for="validationTooltipUsername">Предварительный просмотр : </label>
+						    <label for="validationTooltipUsername">Пред. просмотр: </label>
 						    <span id="preview-content"></span>
 						    <input type="text" id="preview-text" class="form-control form-contact"  placeholder="Введите имя или текст здесь ..." required>
 						  </div>
