@@ -44,15 +44,15 @@
 					<div class="col-lg-2 text-center text-lg-left">
 						<!-- logo -->
 						<a href="./index.html" class="site-logo">
-							<img src="img/logo.png" alt="">
+							<img src="{{ asset('img/logo.png') }}" alt="">
 						</a>
 					</div>
-					<div class="col-xl-6 col-lg-5">
+					<!--div class="col-xl-6 col-lg-5">
 						<form class="header-search-form">
 							<input type="text" placeholder="Поиск товара ....">
 							<button><i class="flaticon-search"></i></button>
 						</form>
-					</div>
+					</div-->
 				</div>
 			</div>
 		</div>
