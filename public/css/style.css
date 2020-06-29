@@ -2264,9 +2264,14 @@ ol {
 }
 
 #preview-content{
-	font-family: 'AIV2', sans-serif;
+	font-family: AIV2;
 	color: #eac855;
-	font-weight: 600;
+	text-align: left;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    float: left;
+    font-size: 36px;
 }
 /* ----------------
   Responsive
