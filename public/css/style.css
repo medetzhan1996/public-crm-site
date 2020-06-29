@@ -2262,6 +2262,12 @@ ol {
 .custom-file{
 	margin-bottom:1rem;
 }
+
+#preview-content{
+	font-family: 'Krona One', sans-serif;
+	color: #eac855;
+	font-weight: 600;
+}
 /* ----------------
   Responsive
 ---------------------*/
