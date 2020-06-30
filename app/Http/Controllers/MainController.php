@@ -27,11 +27,14 @@ class MainController extends Controller
     	return view('product_detail', ['product'=>$product]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function product_photo_detail($id){
         $product = DB::table('list_products')->find($id);
         return view('product_photo_detail', ['product'=>$product]);
     }
 =======
+=======
+>>>>>>> parent of db8b173... Добавил стран изобр
 
 >>>>>>> parent of db8b173... Добавил стран изобр
 }
