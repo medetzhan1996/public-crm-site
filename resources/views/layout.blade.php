@@ -17,7 +17,8 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
 	<link rel="stylesheet" href="{{ asset('css/fontawesome/css/font-awesome.min.css') }}"/>
-	<!-- <link rel="stylesheet" href="{{ asset('css/fonts.css') }}"/> -->
+	<!-- <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}"/> 
+		 -->	
 	<link rel="stylesheet" href="{{ asset('css/css/flaticon.css') }}"/>
 	<link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}"/>
 	<link rel="stylesheet" href="{{ asset('css/jquery-ui.min.css') }}"/>
