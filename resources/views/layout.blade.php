@@ -67,15 +67,7 @@
 					<li><a href="#">Для парня / отца</a></li>
 					<li><a href="#">Для девушки / мамы</a></li>
 					<li><a href="#">для новорожденного</a></li>
-					<!--li><a href="#">Shoes</a>
-						<ul class="sub-menu">
-							<li><a href="#">Sneakers</a></li>
-							<li><a href="#">Sandals</a></li>
-							<li><a href="#">Formal Shoes</a></li>
-							<li><a href="#">Boots</a></li>
-							<li><a href="#">Flip Flops</a></li>
-						</ul>
-					</li-->
+					
 					<!--li><a href="#">Pages</a>
 						<ul class="sub-menu">
 							<li><a href="./product.html">Product Page</a></li>
@@ -96,15 +88,16 @@
 	<section class="footer-section">
 		<div class="social-links-warp">
 			<div class="container">
-				<div class="social-links">
+				<div class="social-links text-center">
 					<a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
-					<a href="" class="google-plus"><i class="fa fa-google-plus"></i><span>g+plus</span></a>
-					<a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+					<!-- <a href="" class="google-plus"><i class="fa fa-google-plus"></i><span>g+plus</span></a> -->
+					<!-- <a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a> -->
 					<a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
 					<a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
 					<a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
-					<a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
+					<!-- <a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a> -->
 				</div>
+				<p class="text-white text-center mt-5">Copyright ©<script>document.write(new Date().getFullYear());</script>2020 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
 			</div>
 		</div>
 	</section>

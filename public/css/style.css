@@ -104,7 +104,7 @@ ol {
 }
 
 .spad {
-	padding-top: 80px;
+	padding-top: 60px;
 	padding-bottom: 80px;
 }
 .border-b{
@@ -348,9 +348,11 @@ ol {
 	/*color: #8f8f8f;
 	margin-bottom: 25px;
 	line-height: 1.8;*/
-	color: #000;
-    margin-bottom: 5px;
-    line-height: 1.7;
+	color: #999;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
 }
 
 .accordion-area .panel-body p span {
@@ -2272,6 +2274,7 @@ ol {
     width: 100%;
     font-size: 36px;
 }
+
 /* ----------------
   Responsive
 ---------------------*/

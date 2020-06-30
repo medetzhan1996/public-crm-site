@@ -111,8 +111,8 @@
 								<button style="min-height: 50px;" class="panel-link active" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Информация</button>
 							</div>
 							<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-								<div class="panel-body" style="color: #999; font-size: 13px; line-height: 1.5;">
-									{!!$product->information!!}
+								<div class="panel-body">
+									<p class="p-text">{!!$product->information!!}</p>
 								</div>
 							</div>
 						</div>
