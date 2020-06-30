@@ -104,7 +104,7 @@ ol {
 }
 
 .spad {
-	padding-top: 60px;
+	padding-top: 80px;
 	padding-bottom: 80px;
 }
 .border-b{
@@ -348,11 +348,9 @@ ol {
 	/*color: #8f8f8f;
 	margin-bottom: 25px;
 	line-height: 1.8;*/
-	color: #999;
-    font-size: 13px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    text-align: justify;
+	color: #000;
+    margin-bottom: 5px;
+    line-height: 1.7;
 }
 
 .accordion-area .panel-body p span {
@@ -376,7 +374,7 @@ ol {
 ---------------------*/
 
 .header-top {
-	padding: 18px 0 25px;
+	padding: 18px 0 14px;
 }
 
 .site-logo {
@@ -2264,6 +2262,7 @@ ol {
 .custom-file{
 	margin-bottom:1rem;
 }
+<<<<<<< HEAD
 
 #preview-content{
 	font-family: AIV2;
@@ -2275,6 +2274,8 @@ ol {
     font-size: 36px;
 }
 s
+=======
+>>>>>>> cb3e3e61304e1ca7640c8c92d6336ca89a8cd1a3
 /* ----------------
   Responsive
 ---------------------*/

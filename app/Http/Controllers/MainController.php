@@ -30,5 +30,4 @@ class MainController extends Controller
         $product = DB::table('list_products')->find($id);
         return view('product_photo_detail', ['product'=>$product]);
     }
-
 }
