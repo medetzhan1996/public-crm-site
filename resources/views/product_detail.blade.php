@@ -54,7 +54,8 @@
 						<i class="fa fa-star-o"></i>
 						<i class="fa fa-star-o"></i>
 						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o fa-fade"></i>
+						<i class="fa fa-star-o"></i>
+						<!--i class="fa fa-star-o fa-fade"></i-->
 					</div>
 					<div class="input-text-modal">
 						<div class="form-group">
