@@ -43,7 +43,7 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-2 text-center text-lg-left">
+					<div class="col-lg-12 text-center">
 						<!-- logo -->
 						<a href="./index.html" class="site-logo">
 							<img src="{{ asset('img/logo.png') }}" alt="">
