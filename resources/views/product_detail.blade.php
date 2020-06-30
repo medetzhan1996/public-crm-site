@@ -115,12 +115,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<div class="panel-body" style="color: #999; font-size: 13px; line-height: 1.5;">
 									{!!$product->information!!}
 =======
 								<div class="panel-body">
 									<p class="p-text">{!!$product->information!!}</p>
 >>>>>>> parent of db8b173... Добавил стран изобр
+=======
+								<div class="panel-body" style="color: #999; font-size: 13px; line-height: 1.5;">
+									{!!$product->information!!}
+>>>>>>> parent of 941cada... Merge branch 'master' of https://github.com/medetzhan1996/public-crm-site
 =======
 								<div class="panel-body" style="color: #999; font-size: 13px; line-height: 1.5;">
 									{!!$product->information!!}
