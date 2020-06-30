@@ -55,11 +55,24 @@
 						<i class="fa fa-star-o"></i>
 						<i class="fa fa-star-o"></i>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<i class="fa fa-star-o fa-fade"></i>
 =======
 						<i class="fa fa-star-o"></i>
 						<!--i class="fa fa-star-o fa-fade"></i-->
 >>>>>>> cb3e3e61304e1ca7640c8c92d6336ca89a8cd1a3
+=======
+<<<<<<< HEAD
+						<i class="fa fa-star-o fa-fade"></i>
+=======
+						<i class="fa fa-star-o"></i>
+						<!--i class="fa fa-star-o fa-fade"></i-->
+>>>>>>> parent of db8b173... Добавил стран изобр
+=======
+						<i class="fa fa-star-o"></i>
+						<!--i class="fa fa-star-o fa-fade"></i-->
+>>>>>>> parent of db8b173... Добавил стран изобр
+>>>>>>> 1d909e45b7a68d521134a7a3f0a53079a886f2e6
 					</div>
 					<div class="input-text-modal">
 						<div class="form-group">
@@ -126,6 +139,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 								<div class="panel-body" style="color: #999; font-size: 13px; line-height: 1.5;">
 									{!!$product->information!!}
 =======
@@ -152,7 +169,26 @@
 								<div class="panel-body" style="color: #999; font-size: 13px; line-height: 1.5;">
 									{!!$product->information!!}
 >>>>>>> parent of 941cada... Merge branch 'master' of https://github.com/medetzhan1996/public-crm-site
+<<<<<<< HEAD
 >>>>>>> cb3e3e61304e1ca7640c8c92d6336ca89a8cd1a3
+=======
+=======
+								<div class="panel-body">
+									<p class="p-text">{!!$product->information!!}</p>
+>>>>>>> parent of db8b173... Добавил стран изобр
+=======
+								<div class="panel-body" style="color: #999; font-size: 13px; line-height: 1.5;">
+									{!!$product->information!!}
+>>>>>>> parent of 941cada... Merge branch 'master' of https://github.com/medetzhan1996/public-crm-site
+=======
+								<div class="panel-body">
+									<p class="p-text">{!!$product->information!!}</p>
+>>>>>>> parent of db8b173... Добавил стран изобр
+=======
+								<div class="panel-body">
+									<p class="p-text">{!!$product->information!!}</p>
+>>>>>>> parent of db8b173... Добавил стран изобр
+>>>>>>> 1d909e45b7a68d521134a7a3f0a53079a886f2e6
 								</div>
 							</div>
 						</div>
